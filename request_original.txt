@@ -1,0 +1,2026 @@
+{
+    "events": [
+        {
+            "type": "nhl",
+            "id": 5653481,
+            "datetime_utc": "2022-06-21T00:00:00",
+            "venue": {
+                "state": "FL",
+                "name_v2": "Amalie Arena",
+                "postal_code": "33602",
+                "name": "Amalie Arena",
+                "links": [],
+                "timezone": "America/New_York",
+                "url": "https://seatgeek.com/venues/amalie-arena/tickets",
+                "score": 0.61,
+                "location": {
+                    "lat": 27.9427,
+                    "lon": -82.4517
+                },
+                "address": "401 Channelside Dr",
+                "country": "US",
+                "has_upcoming_events": true,
+                "num_upcoming_events": 31,
+                "city": "Tampa",
+                "slug": "amalie-arena",
+                "extended_address": "Tampa, FL 33602",
+                "id": 182,
+                "popularity": 0,
+                "access_method": {
+                    "method": "QRCODE_TM",
+                    "created_at": "2015-10-29T16:55:53Z",
+                    "employee_only": false
+                },
+                "metro_code": 539,
+                "capacity": 21500,
+                "display_location": "Tampa, FL"
+            },
+            "datetime_tbd": false,
+            "performers": [
+                {
+                    "type": "nhl",
+                    "name": "Tampa Bay Lightning",
+                    "image": "https://seatgeek.com/images/performers-landscape/tampa-bay-lightning-c9f5c0/2131/huge.jpg",
+                    "id": 2131,
+                    "images": {
+                        "huge": "https://seatgeek.com/images/performers-landscape/tampa-bay-lightning-c9f5c0/2131/huge.jpg"
+                    },
+                    "divisions": [
+                        {
+                            "taxonomy_id": 1040100,
+                            "short_name": null,
+                            "display_name": "Eastern Conference",
+                            "display_type": "Conference",
+                            "division_level": 1,
+                            "slug": null
+                        },
+                        {
+                            "taxonomy_id": 1040100,
+                            "short_name": "Atlantic",
+                            "display_name": "Eastern - Atlantic",
+                            "display_type": "Division",
+                            "division_level": 2,
+                            "slug": "eastern-atlantic"
+                        }
+                    ],
+                    "has_upcoming_events": true,
+                    "primary": true,
+                    "stats": {
+                        "event_count": 5
+                    },
+                    "taxonomies": [
+                        {
+                            "id": 1000000,
+                            "name": "sports",
+                            "parent_id": null,
+                            "document_source": {
+                                "source_type": "ELASTIC",
+                                "generation_type": "FULL"
+                            },
+                            "rank": 0
+                        },
+                        {
+                            "id": 1040000,
+                            "name": "hockey",
+                            "parent_id": 1000000,
+                            "document_source": {
+                                "source_type": "ELASTIC",
+                                "generation_type": "FULL"
+                            },
+                            "rank": 0
+                        },
+                        {
+                            "id": 1040100,
+                            "name": "nhl",
+                            "parent_id": 1040000,
+                            "document_source": {
+                                "source_type": "ELASTIC",
+                                "generation_type": "FULL"
+                            },
+                            "rank": 4
+                        }
+                    ],
+                    "image_attribution": "sg",
+                    "url": "https://seatgeek.com/tampa-bay-lightning-tickets",
+                    "score": 0.45,
+                    "slug": "tampa-bay-lightning",
+                    "home_venue_id": 182,
+                    "short_name": "Lightning",
+                    "num_upcoming_events": 5,
+                    "colors": {
+                        "all": [
+                            "#002868",
+                            "#002868",
+                            "#002868"
+                        ],
+                        "iconic": "#002868",
+                        "primary": [
+                            "#002868",
+                            "#002868"
+                        ]
+                    },
+                    "image_license": "sg",
+                    "popularity": 0,
+                    "home_team": true,
+                    "location": {
+                        "lat": 27.9427,
+                        "lon": -82.4517
+                    },
+                    "image_rights_message": ""
+                },
+                {
+                    "type": "nhl",
+                    "name": "Colorado Avalanche",
+                    "image": "https://seatgeek.com/images/performers-landscape/colorado-avalanche-7ca107/2139/huge.jpg",
+                    "id": 2139,
+                    "images": {
+                        "huge": "https://seatgeek.com/images/performers-landscape/colorado-avalanche-7ca107/2139/huge.jpg"
+                    },
+                    "divisions": [
+                        {
+                            "taxonomy_id": 1040100,
+                            "short_name": null,
+                            "display_name": "Western Conference",
+                            "display_type": "Conference",
+                            "division_level": 1,
+                            "slug": null
+                        },
+                        {
+                            "taxonomy_id": 1040100,
+                            "short_name": "Central",
+                            "display_name": "Western - Central",
+                            "display_type": "Division",
+                            "division_level": 2,
+                            "slug": "western-central"
+                        }
+                    ],
+                    "has_upcoming_events": true,
+                    "stats": {
+                        "event_count": 5
+                    },
+                    "taxonomies": [
+                        {
+                            "id": 1000000,
+                            "name": "sports",
+                            "parent_id": null,
+                            "document_source": {
+                                "source_type": "ELASTIC",
+                                "generation_type": "FULL"
+                            },
+                            "rank": 0
+                        },
+                        {
+                            "id": 1040000,
+                            "name": "hockey",
+                            "parent_id": 1000000,
+                            "document_source": {
+                                "source_type": "ELASTIC",
+                                "generation_type": "FULL"
+                            },
+                            "rank": 0
+                        },
+                        {
+                            "id": 1040100,
+                            "name": "nhl",
+                            "parent_id": 1040000,
+                            "document_source": {
+                                "source_type": "ELASTIC",
+                                "generation_type": "FULL"
+                            },
+                            "rank": 4
+                        }
+                    ],
+                    "image_attribution": "https://www.flickr.com/photos/98147195@N00",
+                    "url": "https://seatgeek.com/colorado-avalanche-tickets",
+                    "score": 0.43,
+                    "slug": "colorado-avalanche",
+                    "home_venue_id": 187,
+                    "short_name": "Avalanche",
+                    "num_upcoming_events": 5,
+                    "colors": {
+                        "all": [
+                            "#6F263D",
+                            "#236192",
+                            "#6F263D"
+                        ],
+                        "iconic": "#6F263D",
+                        "primary": [
+                            "#6F263D",
+                            "#236192"
+                        ]
+                    },
+                    "image_license": "https://creativecommons.org/licenses/by/2.0/?ref=openverse",
+                    "popularity": 0,
+                    "location": {
+                        "lat": 39.7487,
+                        "lon": -105.008
+                    },
+                    "image_rights_message": "[This image](https://www.flickr.com/photos/98147195@N00) is available through [Creative Commons](https://creativecommons.org/licenses/by/2.0/?ref=openverse) on Flickr and has been modified from the original. Email [images@seatgeek.com](mailto:images@seatgeek.com) with any questions."
+                },
+                {
+                    "type": "nhl",
+                    "name": "NHL Stanley Cup Finals",
+                    "image": "https://seatgeek.com/images/performers-landscape/nhl-stanley-cup-finals-8471dd/14344/huge.jpg",
+                    "id": 14344,
+                    "images": {
+                        "huge": "https://seatgeek.com/images/performers-landscape/nhl-stanley-cup-finals-8471dd/14344/huge.jpg"
+                    },
+                    "divisions": null,
+                    "has_upcoming_events": true,
+                    "stats": {
+                        "event_count": 5
+                    },
+                    "taxonomies": [
+                        {
+                            "id": 1000000,
+                            "name": "sports",
+                            "parent_id": null,
+                            "document_source": {
+                                "source_type": "ELASTIC",
+                                "generation_type": "FULL"
+                            },
+                            "rank": 0
+                        },
+                        {
+                            "id": 1040000,
+                            "name": "hockey",
+                            "parent_id": 1000000,
+                            "document_source": {
+                                "source_type": "ELASTIC",
+                                "generation_type": "FULL"
+                            },
+                            "rank": 0
+                        },
+                        {
+                            "id": 1040100,
+                            "name": "nhl",
+                            "parent_id": 1040000,
+                            "document_source": {
+                                "source_type": "ELASTIC",
+                                "generation_type": "FULL"
+                            },
+                            "rank": 4
+                        }
+                    ],
+                    "image_attribution": "SeatGeek - 2022 (1600 X 1200)",
+                    "url": "https://seatgeek.com/nhl-stanley-cup-finals-tickets",
+                    "score": 0.42,
+                    "slug": "nhl-stanley-cup-finals",
+                    "home_venue_id": null,
+                    "short_name": "NHL Stanley Cup Finals",
+                    "num_upcoming_events": 5,
+                    "colors": null,
+                    "image_license": "SeatGeek - 2022 (1600 X 1200)",
+                    "popularity": 0,
+                    "away_team": true,
+                    "location": null,
+                    "image_rights_message": ""
+                },
+                {
+                    "type": "nhl",
+                    "name": "NHL Playoffs",
+                    "image": "https://seatgeek.com/images/performers-landscape/nhl-playoffs-57ad7d/792982/huge.jpg",
+                    "id": 792982,
+                    "images": {
+                        "huge": "https://seatgeek.com/images/performers-landscape/nhl-playoffs-57ad7d/792982/huge.jpg"
+                    },
+                    "divisions": null,
+                    "has_upcoming_events": true,
+                    "stats": {
+                        "event_count": 5
+                    },
+                    "taxonomies": [
+                        {
+                            "id": 1000000,
+                            "name": "sports",
+                            "parent_id": null,
+                            "document_source": {
+                                "source_type": "ELASTIC",
+                                "generation_type": "FULL"
+                            },
+                            "rank": 0
+                        },
+                        {
+                            "id": 1040000,
+                            "name": "hockey",
+                            "parent_id": 1000000,
+                            "document_source": {
+                                "source_type": "ELASTIC",
+                                "generation_type": "FULL"
+                            },
+                            "rank": 0
+                        },
+                        {
+                            "id": 1040100,
+                            "name": "nhl",
+                            "parent_id": 1040000,
+                            "document_source": {
+                                "source_type": "ELASTIC",
+                                "generation_type": "FULL"
+                            },
+                            "rank": 4
+                        }
+                    ],
+                    "image_attribution": "SeatGeek - 2022",
+                    "url": "https://seatgeek.com/nhl-playoffs-tickets",
+                    "score": 0.45,
+                    "slug": "nhl-playoffs",
+                    "home_venue_id": null,
+                    "short_name": "NHL Playoffs",
+                    "num_upcoming_events": 5,
+                    "colors": null,
+                    "image_license": "SeatGeek - 2022",
+                    "popularity": 0,
+                    "location": null,
+                    "image_rights_message": ""
+                }
+            ],
+            "is_open": false,
+            "links": [],
+            "datetime_local": "2022-06-20T20:00:00",
+            "time_tbd": false,
+            "short_title": "Avalanche at Lightning: Stanley Cup Finals - Gm 3",
+            "visible_until_utc": "2022-06-21T04:00:00",
+            "stats": {
+                "listing_count": 15,
+                "average_price": 357,
+                "lowest_price_good_deals": 116,
+                "lowest_price": 116,
+                "highest_price": 1009,
+                "visible_listing_count": 15,
+                "dq_bucket_counts": [
+                    3,
+                    5,
+                    2,
+                    0,
+                    0,
+                    2,
+                    3,
+                    0
+                ],
+                "median_price": 343,
+                "lowest_sg_base_price": 85,
+                "lowest_sg_base_price_good_deals": 85
+            },
+            "taxonomies": [
+                {
+                    "id": 1000000,
+                    "name": "sports",
+                    "parent_id": null,
+                    "rank": 0
+                },
+                {
+                    "id": 1040000,
+                    "name": "hockey",
+                    "parent_id": 1000000,
+                    "rank": 0
+                },
+                {
+                    "id": 1040100,
+                    "name": "nhl",
+                    "parent_id": 1040000,
+                    "rank": 4
+                }
+            ],
+            "url": "https://seatgeek.com/colorado-avalanche-at-tampa-bay-lightning-stanley-cup-finals-game-3-tickets/6-20-2022-tampa-florida-amalie-arena/nhl/5653481",
+            "score": 0.623,
+            "announce_date": "2022-02-23T00:00:00",
+            "created_at": "2022-02-23T16:00:54",
+            "date_tbd": false,
+            "title": "Colorado Avalanche at Tampa Bay Lightning: Stanley Cup Finals - Game 3",
+            "popularity": 0.925,
+            "description": "",
+            "status": "normal",
+            "access_method": {
+                "method": "QRCODE_TM",
+                "created_at": "2015-10-29T16:55:53Z",
+                "employee_only": false
+            },
+            "event_promotion": null,
+            "announcements": {},
+            "conditional": false,
+            "enddatetime_utc": null,
+            "themes": [],
+            "domain_information": []
+        },
+        {
+            "type": "nhl",
+            "id": 5653473,
+            "datetime_utc": "2022-06-23T00:00:00",
+            "venue": {
+                "state": "FL",
+                "name_v2": "Amalie Arena",
+                "postal_code": "33602",
+                "name": "Amalie Arena",
+                "links": [],
+                "timezone": "America/New_York",
+                "url": "https://seatgeek.com/venues/amalie-arena/tickets",
+                "score": 0.61,
+                "location": {
+                    "lat": 27.9427,
+                    "lon": -82.4517
+                },
+                "address": "401 Channelside Dr",
+                "country": "US",
+                "has_upcoming_events": true,
+                "num_upcoming_events": 30,
+                "city": "Tampa",
+                "slug": "amalie-arena",
+                "extended_address": "Tampa, FL 33602",
+                "id": 182,
+                "popularity": 0,
+                "access_method": {
+                    "method": "QRCODE_TM",
+                    "created_at": "2015-10-29T16:55:53Z",
+                    "employee_only": false
+                },
+                "metro_code": 539,
+                "capacity": 21500,
+                "display_location": "Tampa, FL"
+            },
+            "datetime_tbd": false,
+            "performers": [
+                {
+                    "type": "nhl",
+                    "name": "Tampa Bay Lightning",
+                    "image": "https://seatgeek.com/images/performers-landscape/tampa-bay-lightning-c9f5c0/2131/huge.jpg",
+                    "id": 2131,
+                    "images": {
+                        "huge": "https://seatgeek.com/images/performers-landscape/tampa-bay-lightning-c9f5c0/2131/huge.jpg"
+                    },
+                    "divisions": [
+                        {
+                            "taxonomy_id": 1040100,
+                            "short_name": null,
+                            "display_name": "Eastern Conference",
+                            "display_type": "Conference",
+                            "division_level": 1,
+                            "slug": null
+                        },
+                        {
+                            "taxonomy_id": 1040100,
+                            "short_name": "Atlantic",
+                            "display_name": "Eastern - Atlantic",
+                            "display_type": "Division",
+                            "division_level": 2,
+                            "slug": "eastern-atlantic"
+                        }
+                    ],
+                    "has_upcoming_events": true,
+                    "primary": true,
+                    "stats": {
+                        "event_count": 4
+                    },
+                    "taxonomies": [
+                        {
+                            "id": 1000000,
+                            "name": "sports",
+                            "parent_id": null,
+                            "document_source": {
+                                "source_type": "ELASTIC",
+                                "generation_type": "FULL"
+                            },
+                            "rank": 0
+                        },
+                        {
+                            "id": 1040000,
+                            "name": "hockey",
+                            "parent_id": 1000000,
+                            "document_source": {
+                                "source_type": "ELASTIC",
+                                "generation_type": "FULL"
+                            },
+                            "rank": 0
+                        },
+                        {
+                            "id": 1040100,
+                            "name": "nhl",
+                            "parent_id": 1040000,
+                            "document_source": {
+                                "source_type": "ELASTIC",
+                                "generation_type": "FULL"
+                            },
+                            "rank": 4
+                        }
+                    ],
+                    "image_attribution": "sg",
+                    "url": "https://seatgeek.com/tampa-bay-lightning-tickets",
+                    "score": 0.45,
+                    "slug": "tampa-bay-lightning",
+                    "home_venue_id": 182,
+                    "short_name": "Lightning",
+                    "num_upcoming_events": 4,
+                    "colors": {
+                        "all": [
+                            "#002868",
+                            "#002868",
+                            "#002868"
+                        ],
+                        "iconic": "#002868",
+                        "primary": [
+                            "#002868",
+                            "#002868"
+                        ]
+                    },
+                    "image_license": "sg",
+                    "popularity": 0,
+                    "home_team": true,
+                    "location": {
+                        "lat": 27.9427,
+                        "lon": -82.4517
+                    },
+                    "image_rights_message": ""
+                },
+                {
+                    "type": "nhl",
+                    "name": "Colorado Avalanche",
+                    "image": "https://seatgeek.com/images/performers-landscape/colorado-avalanche-7ca107/2139/huge.jpg",
+                    "id": 2139,
+                    "images": {
+                        "huge": "https://seatgeek.com/images/performers-landscape/colorado-avalanche-7ca107/2139/huge.jpg"
+                    },
+                    "divisions": [
+                        {
+                            "taxonomy_id": 1040100,
+                            "short_name": null,
+                            "display_name": "Western Conference",
+                            "display_type": "Conference",
+                            "division_level": 1,
+                            "slug": null
+                        },
+                        {
+                            "taxonomy_id": 1040100,
+                            "short_name": "Central",
+                            "display_name": "Western - Central",
+                            "display_type": "Division",
+                            "division_level": 2,
+                            "slug": "western-central"
+                        }
+                    ],
+                    "has_upcoming_events": true,
+                    "stats": {
+                        "event_count": 4
+                    },
+                    "taxonomies": [
+                        {
+                            "id": 1000000,
+                            "name": "sports",
+                            "parent_id": null,
+                            "document_source": {
+                                "source_type": "ELASTIC",
+                                "generation_type": "FULL"
+                            },
+                            "rank": 0
+                        },
+                        {
+                            "id": 1040000,
+                            "name": "hockey",
+                            "parent_id": 1000000,
+                            "document_source": {
+                                "source_type": "ELASTIC",
+                                "generation_type": "FULL"
+                            },
+                            "rank": 0
+                        },
+                        {
+                            "id": 1040100,
+                            "name": "nhl",
+                            "parent_id": 1040000,
+                            "document_source": {
+                                "source_type": "ELASTIC",
+                                "generation_type": "FULL"
+                            },
+                            "rank": 4
+                        }
+                    ],
+                    "image_attribution": "https://www.flickr.com/photos/98147195@N00",
+                    "url": "https://seatgeek.com/colorado-avalanche-tickets",
+                    "score": 0.43,
+                    "slug": "colorado-avalanche",
+                    "home_venue_id": 187,
+                    "short_name": "Avalanche",
+                    "num_upcoming_events": 4,
+                    "colors": {
+                        "all": [
+                            "#6F263D",
+                            "#236192",
+                            "#6F263D"
+                        ],
+                        "iconic": "#6F263D",
+                        "primary": [
+                            "#6F263D",
+                            "#236192"
+                        ]
+                    },
+                    "image_license": "https://creativecommons.org/licenses/by/2.0/?ref=openverse",
+                    "popularity": 0,
+                    "location": {
+                        "lat": 39.7487,
+                        "lon": -105.008
+                    },
+                    "image_rights_message": "[This image](https://www.flickr.com/photos/98147195@N00) is available through [Creative Commons](https://creativecommons.org/licenses/by/2.0/?ref=openverse) on Flickr and has been modified from the original. Email [images@seatgeek.com](mailto:images@seatgeek.com) with any questions."
+                },
+                {
+                    "type": "nhl",
+                    "name": "NHL Stanley Cup Finals",
+                    "image": "https://seatgeek.com/images/performers-landscape/nhl-stanley-cup-finals-8471dd/14344/huge.jpg",
+                    "id": 14344,
+                    "images": {
+                        "huge": "https://seatgeek.com/images/performers-landscape/nhl-stanley-cup-finals-8471dd/14344/huge.jpg"
+                    },
+                    "divisions": null,
+                    "has_upcoming_events": true,
+                    "stats": {
+                        "event_count": 4
+                    },
+                    "taxonomies": [
+                        {
+                            "id": 1000000,
+                            "name": "sports",
+                            "parent_id": null,
+                            "document_source": {
+                                "source_type": "ELASTIC",
+                                "generation_type": "FULL"
+                            },
+                            "rank": 0
+                        },
+                        {
+                            "id": 1040000,
+                            "name": "hockey",
+                            "parent_id": 1000000,
+                            "document_source": {
+                                "source_type": "ELASTIC",
+                                "generation_type": "FULL"
+                            },
+                            "rank": 0
+                        },
+                        {
+                            "id": 1040100,
+                            "name": "nhl",
+                            "parent_id": 1040000,
+                            "document_source": {
+                                "source_type": "ELASTIC",
+                                "generation_type": "FULL"
+                            },
+                            "rank": 4
+                        }
+                    ],
+                    "image_attribution": "SeatGeek - 2022 (1600 X 1200)",
+                    "url": "https://seatgeek.com/nhl-stanley-cup-finals-tickets",
+                    "score": 0.42,
+                    "slug": "nhl-stanley-cup-finals",
+                    "home_venue_id": null,
+                    "short_name": "NHL Stanley Cup Finals",
+                    "num_upcoming_events": 4,
+                    "colors": null,
+                    "image_license": "SeatGeek - 2022 (1600 X 1200)",
+                    "popularity": 0,
+                    "away_team": true,
+                    "location": null,
+                    "image_rights_message": ""
+                },
+                {
+                    "type": "nhl",
+                    "name": "NHL Playoffs",
+                    "image": "https://seatgeek.com/images/performers-landscape/nhl-playoffs-57ad7d/792982/huge.jpg",
+                    "id": 792982,
+                    "images": {
+                        "huge": "https://seatgeek.com/images/performers-landscape/nhl-playoffs-57ad7d/792982/huge.jpg"
+                    },
+                    "divisions": null,
+                    "has_upcoming_events": true,
+                    "stats": {
+                        "event_count": 4
+                    },
+                    "taxonomies": [
+                        {
+                            "id": 1000000,
+                            "name": "sports",
+                            "parent_id": null,
+                            "document_source": {
+                                "source_type": "ELASTIC",
+                                "generation_type": "FULL"
+                            },
+                            "rank": 0
+                        },
+                        {
+                            "id": 1040000,
+                            "name": "hockey",
+                            "parent_id": 1000000,
+                            "document_source": {
+                                "source_type": "ELASTIC",
+                                "generation_type": "FULL"
+                            },
+                            "rank": 0
+                        },
+                        {
+                            "id": 1040100,
+                            "name": "nhl",
+                            "parent_id": 1040000,
+                            "document_source": {
+                                "source_type": "ELASTIC",
+                                "generation_type": "FULL"
+                            },
+                            "rank": 4
+                        }
+                    ],
+                    "image_attribution": "SeatGeek - 2022",
+                    "url": "https://seatgeek.com/nhl-playoffs-tickets",
+                    "score": 0.45,
+                    "slug": "nhl-playoffs",
+                    "home_venue_id": null,
+                    "short_name": "NHL Playoffs",
+                    "num_upcoming_events": 4,
+                    "colors": null,
+                    "image_license": "SeatGeek - 2022",
+                    "popularity": 0,
+                    "location": null,
+                    "image_rights_message": ""
+                }
+            ],
+            "is_open": false,
+            "links": [],
+            "datetime_local": "2022-06-22T20:00:00",
+            "time_tbd": false,
+            "short_title": "Avalanche at Lightning: Stanley Cup Finals - Gm 4",
+            "visible_until_utc": "2022-06-23T04:00:00",
+            "stats": {
+                "listing_count": 1152,
+                "average_price": 1629,
+                "lowest_price_good_deals": 388,
+                "lowest_price": 105,
+                "highest_price": 11737,
+                "visible_listing_count": 1024,
+                "dq_bucket_counts": [
+                    114,
+                    406,
+                    210,
+                    107,
+                    97,
+                    117,
+                    113,
+                    0
+                ],
+                "median_price": 1229,
+                "lowest_sg_base_price": 76,
+                "lowest_sg_base_price_good_deals": 296
+            },
+            "taxonomies": [
+                {
+                    "id": 1000000,
+                    "name": "sports",
+                    "parent_id": null,
+                    "rank": 0
+                },
+                {
+                    "id": 1040000,
+                    "name": "hockey",
+                    "parent_id": 1000000,
+                    "rank": 0
+                },
+                {
+                    "id": 1040100,
+                    "name": "nhl",
+                    "parent_id": 1040000,
+                    "rank": 4
+                }
+            ],
+            "url": "https://seatgeek.com/colorado-avalanche-at-tampa-bay-lightning-stanley-cup-finals-game-4-tickets/6-22-2022-tampa-florida-amalie-arena/nhl/5653473",
+            "score": 0.619,
+            "announce_date": "2022-02-23T00:00:00",
+            "created_at": "2022-02-23T16:00:54",
+            "date_tbd": false,
+            "title": "Colorado Avalanche at Tampa Bay Lightning: Stanley Cup Finals - Game 4",
+            "popularity": 0.914,
+            "description": "",
+            "status": "normal",
+            "access_method": {
+                "method": "QRCODE_TM",
+                "created_at": "2015-10-29T16:55:53Z",
+                "employee_only": false
+            },
+            "event_promotion": null,
+            "announcements": {},
+            "conditional": false,
+            "enddatetime_utc": null,
+            "themes": [],
+            "domain_information": []
+        },
+        {
+            "type": "nhl",
+            "id": 5653656,
+            "datetime_utc": "2022-06-25T00:00:00",
+            "venue": {
+                "state": "CO",
+                "name_v2": "Ball Arena",
+                "postal_code": "80204",
+                "name": "Ball Arena",
+                "links": [],
+                "timezone": "America/Denver",
+                "url": "https://seatgeek.com/venues/ball-arena/tickets",
+                "score": 0.61,
+                "location": {
+                    "lat": 39.7487,
+                    "lon": -105.008
+                },
+                "address": "1000 Chopper Circle",
+                "country": "US",
+                "has_upcoming_events": true,
+                "num_upcoming_events": 47,
+                "city": "Denver",
+                "slug": "ball-arena",
+                "extended_address": "Denver, CO 80204",
+                "id": 187,
+                "popularity": 0,
+                "access_method": {
+                    "method": "NONE",
+                    "created_at": "2015-11-04T17:30:28Z",
+                    "employee_only": false
+                },
+                "metro_code": 751,
+                "capacity": 21000,
+                "display_location": "Denver, CO"
+            },
+            "datetime_tbd": false,
+            "performers": [
+                {
+                    "type": "nhl",
+                    "name": "Colorado Avalanche",
+                    "image": "https://seatgeek.com/images/performers-landscape/colorado-avalanche-8df321/2139/9189/huge.jpg",
+                    "id": 2139,
+                    "images": {
+                        "huge": "https://seatgeek.com/images/performers-landscape/colorado-avalanche-8df321/2139/9189/huge.jpg"
+                    },
+                    "divisions": [
+                        {
+                            "taxonomy_id": 1040100,
+                            "short_name": null,
+                            "display_name": "Western Conference",
+                            "display_type": "Conference",
+                            "division_level": 1,
+                            "slug": null
+                        },
+                        {
+                            "taxonomy_id": 1040100,
+                            "short_name": "Central",
+                            "display_name": "Western - Central",
+                            "display_type": "Division",
+                            "division_level": 2,
+                            "slug": "western-central"
+                        }
+                    ],
+                    "has_upcoming_events": true,
+                    "primary": true,
+                    "stats": {
+                        "event_count": 4
+                    },
+                    "taxonomies": [
+                        {
+                            "id": 1000000,
+                            "name": "sports",
+                            "parent_id": null,
+                            "document_source": {
+                                "source_type": "ELASTIC",
+                                "generation_type": "FULL"
+                            },
+                            "rank": 0
+                        },
+                        {
+                            "id": 1040000,
+                            "name": "hockey",
+                            "parent_id": 1000000,
+                            "document_source": {
+                                "source_type": "ELASTIC",
+                                "generation_type": "FULL"
+                            },
+                            "rank": 0
+                        },
+                        {
+                            "id": 1040100,
+                            "name": "nhl",
+                            "parent_id": 1040000,
+                            "document_source": {
+                                "source_type": "ELASTIC",
+                                "generation_type": "FULL"
+                            },
+                            "rank": 4
+                        }
+                    ],
+                    "image_attribution": "https://www.flickr.com/photos/rtadlock/5589496052/in/photolist-9vVCrA-rPpPBN-hK6wxR-6Eaavn-dngh6P-btP6DQ-btP2NY-bGHTnP-p8JDDr-p8JTfA-bGHSa2-bGHRvM-bGHSEK-bGHQX2-btP3Wm-bGHRQc-btP36U-9vSbfF-5SwG68-ppXzJx-p8KTwT-p8KsXU-p8JUb3-p8JUBy-6SV4Gy-ppXxZv-pqeLR4-pqe",
+                    "url": "https://seatgeek.com/colorado-avalanche-tickets",
+                    "score": 0.43,
+                    "slug": "colorado-avalanche",
+                    "home_venue_id": 187,
+                    "short_name": "Avalanche",
+                    "num_upcoming_events": 4,
+                    "colors": {
+                        "all": [
+                            "#6F263D",
+                            "#236192",
+                            "#6F263D"
+                        ],
+                        "iconic": "#6F263D",
+                        "primary": [
+                            "#6F263D",
+                            "#236192"
+                        ]
+                    },
+                    "image_license": "https://creativecommons.org/licenses/by/2.0/",
+                    "popularity": 0,
+                    "home_team": true,
+                    "location": {
+                        "lat": 39.7487,
+                        "lon": -105.008
+                    },
+                    "image_rights_message": "[This image](https://www.flickr.com/photos/rtadlock/5589496052/in/photolist-9vVCrA-rPpPBN-hK6wxR-6Eaavn-dngh6P-btP6DQ-btP2NY-bGHTnP-p8JDDr-p8JTfA-bGHSa2-bGHRvM-bGHSEK-bGHQX2-btP3Wm-bGHRQc-btP36U-9vSbfF-5SwG68-ppXzJx-p8KTwT-p8KsXU-p8JUb3-p8JUBy-6SV4Gy-ppXxZv-pqeLR4-pqe) is available through [Creative Commons](https://creativecommons.org/licenses/by/2.0/) (@rtadlock - Flickr) and has been modified from the original. Email [images@seatgeek.com](mailto:images@seatgeek.com) with any questions."
+                },
+                {
+                    "type": "nhl",
+                    "name": "Tampa Bay Lightning",
+                    "image": "https://seatgeek.com/images/performers-landscape/tampa-bay-lightning-c9f5c0/2131/huge.jpg",
+                    "id": 2131,
+                    "images": {
+                        "huge": "https://seatgeek.com/images/performers-landscape/tampa-bay-lightning-c9f5c0/2131/huge.jpg"
+                    },
+                    "divisions": [
+                        {
+                            "taxonomy_id": 1040100,
+                            "short_name": null,
+                            "display_name": "Eastern Conference",
+                            "display_type": "Conference",
+                            "division_level": 1,
+                            "slug": null
+                        },
+                        {
+                            "taxonomy_id": 1040100,
+                            "short_name": "Atlantic",
+                            "display_name": "Eastern - Atlantic",
+                            "display_type": "Division",
+                            "division_level": 2,
+                            "slug": "eastern-atlantic"
+                        }
+                    ],
+                    "has_upcoming_events": true,
+                    "stats": {
+                        "event_count": 4
+                    },
+                    "taxonomies": [
+                        {
+                            "id": 1000000,
+                            "name": "sports",
+                            "parent_id": null,
+                            "document_source": {
+                                "source_type": "ELASTIC",
+                                "generation_type": "FULL"
+                            },
+                            "rank": 0
+                        },
+                        {
+                            "id": 1040000,
+                            "name": "hockey",
+                            "parent_id": 1000000,
+                            "document_source": {
+                                "source_type": "ELASTIC",
+                                "generation_type": "FULL"
+                            },
+                            "rank": 0
+                        },
+                        {
+                            "id": 1040100,
+                            "name": "nhl",
+                            "parent_id": 1040000,
+                            "document_source": {
+                                "source_type": "ELASTIC",
+                                "generation_type": "FULL"
+                            },
+                            "rank": 4
+                        }
+                    ],
+                    "image_attribution": "sg",
+                    "url": "https://seatgeek.com/tampa-bay-lightning-tickets",
+                    "score": 0.45,
+                    "slug": "tampa-bay-lightning",
+                    "home_venue_id": 182,
+                    "short_name": "Lightning",
+                    "num_upcoming_events": 4,
+                    "colors": {
+                        "all": [
+                            "#002868",
+                            "#002868",
+                            "#002868"
+                        ],
+                        "iconic": "#002868",
+                        "primary": [
+                            "#002868",
+                            "#002868"
+                        ]
+                    },
+                    "image_license": "sg",
+                    "popularity": 0,
+                    "location": {
+                        "lat": 27.9427,
+                        "lon": -82.4517
+                    },
+                    "image_rights_message": ""
+                },
+                {
+                    "type": "nhl",
+                    "name": "NHL Stanley Cup Finals",
+                    "image": "https://seatgeek.com/images/performers-landscape/nhl-stanley-cup-finals-8471dd/14344/huge.jpg",
+                    "id": 14344,
+                    "images": {
+                        "huge": "https://seatgeek.com/images/performers-landscape/nhl-stanley-cup-finals-8471dd/14344/huge.jpg"
+                    },
+                    "divisions": null,
+                    "has_upcoming_events": true,
+                    "stats": {
+                        "event_count": 4
+                    },
+                    "taxonomies": [
+                        {
+                            "id": 1000000,
+                            "name": "sports",
+                            "parent_id": null,
+                            "document_source": {
+                                "source_type": "ELASTIC",
+                                "generation_type": "FULL"
+                            },
+                            "rank": 0
+                        },
+                        {
+                            "id": 1040000,
+                            "name": "hockey",
+                            "parent_id": 1000000,
+                            "document_source": {
+                                "source_type": "ELASTIC",
+                                "generation_type": "FULL"
+                            },
+                            "rank": 0
+                        },
+                        {
+                            "id": 1040100,
+                            "name": "nhl",
+                            "parent_id": 1040000,
+                            "document_source": {
+                                "source_type": "ELASTIC",
+                                "generation_type": "FULL"
+                            },
+                            "rank": 4
+                        }
+                    ],
+                    "image_attribution": "SeatGeek - 2022 (1600 X 1200)",
+                    "url": "https://seatgeek.com/nhl-stanley-cup-finals-tickets",
+                    "score": 0.42,
+                    "slug": "nhl-stanley-cup-finals",
+                    "home_venue_id": null,
+                    "short_name": "NHL Stanley Cup Finals",
+                    "num_upcoming_events": 4,
+                    "colors": null,
+                    "image_license": "SeatGeek - 2022 (1600 X 1200)",
+                    "popularity": 0,
+                    "away_team": true,
+                    "location": null,
+                    "image_rights_message": ""
+                },
+                {
+                    "type": "nhl",
+                    "name": "NHL Playoffs",
+                    "image": "https://seatgeek.com/images/performers-landscape/nhl-playoffs-57ad7d/792982/huge.jpg",
+                    "id": 792982,
+                    "images": {
+                        "huge": "https://seatgeek.com/images/performers-landscape/nhl-playoffs-57ad7d/792982/huge.jpg"
+                    },
+                    "divisions": null,
+                    "has_upcoming_events": true,
+                    "stats": {
+                        "event_count": 4
+                    },
+                    "taxonomies": [
+                        {
+                            "id": 1000000,
+                            "name": "sports",
+                            "parent_id": null,
+                            "document_source": {
+                                "source_type": "ELASTIC",
+                                "generation_type": "FULL"
+                            },
+                            "rank": 0
+                        },
+                        {
+                            "id": 1040000,
+                            "name": "hockey",
+                            "parent_id": 1000000,
+                            "document_source": {
+                                "source_type": "ELASTIC",
+                                "generation_type": "FULL"
+                            },
+                            "rank": 0
+                        },
+                        {
+                            "id": 1040100,
+                            "name": "nhl",
+                            "parent_id": 1040000,
+                            "document_source": {
+                                "source_type": "ELASTIC",
+                                "generation_type": "FULL"
+                            },
+                            "rank": 4
+                        }
+                    ],
+                    "image_attribution": "SeatGeek - 2022",
+                    "url": "https://seatgeek.com/nhl-playoffs-tickets",
+                    "score": 0.45,
+                    "slug": "nhl-playoffs",
+                    "home_venue_id": null,
+                    "short_name": "NHL Playoffs",
+                    "num_upcoming_events": 4,
+                    "colors": null,
+                    "image_license": "SeatGeek - 2022",
+                    "popularity": 0,
+                    "location": null,
+                    "image_rights_message": ""
+                }
+            ],
+            "is_open": false,
+            "links": [],
+            "datetime_local": "2022-06-24T18:00:00",
+            "time_tbd": false,
+            "short_title": "Lightning at Avalanche: Stanley Cup Finals - Gm 5",
+            "visible_until_utc": "2022-06-25T04:00:00",
+            "stats": {
+                "listing_count": 725,
+                "average_price": 2808,
+                "lowest_price_good_deals": 1112,
+                "lowest_price": 1112,
+                "highest_price": 73455,
+                "visible_listing_count": 689,
+                "dq_bucket_counts": [
+                    34,
+                    284,
+                    202,
+                    47,
+                    37,
+                    49,
+                    74,
+                    0
+                ],
+                "median_price": 2160,
+                "lowest_sg_base_price": 860,
+                "lowest_sg_base_price_good_deals": 860
+            },
+            "taxonomies": [
+                {
+                    "id": 1000000,
+                    "name": "sports",
+                    "parent_id": null,
+                    "rank": 0
+                },
+                {
+                    "id": 1040000,
+                    "name": "hockey",
+                    "parent_id": 1000000,
+                    "rank": 0
+                },
+                {
+                    "id": 1040100,
+                    "name": "nhl",
+                    "parent_id": 1040000,
+                    "rank": 4
+                }
+            ],
+            "url": "https://seatgeek.com/tampa-bay-lightning-at-colorado-avalanche-stanley-cup-finals-game-5-tickets/6-24-2022-denver-colorado-ball-arena/nhl/5653656",
+            "score": 0.623,
+            "announce_date": "2022-02-23T00:00:00",
+            "created_at": "2022-02-23T16:00:59",
+            "date_tbd": false,
+            "title": "Tampa Bay Lightning at Colorado Avalanche: Stanley Cup Finals - Game 5",
+            "popularity": 0.904,
+            "description": "",
+            "status": "normal",
+            "access_method": {
+                "method": "NONE",
+                "created_at": "2015-11-04T17:30:28Z",
+                "employee_only": false
+            },
+            "event_promotion": null,
+            "announcements": {},
+            "conditional": false,
+            "enddatetime_utc": null,
+            "themes": [],
+            "domain_information": []
+        },
+        {
+            "type": "nhl",
+            "id": 5653483,
+            "datetime_utc": "2022-06-27T00:00:00",
+            "venue": {
+                "state": "FL",
+                "name_v2": "Amalie Arena",
+                "postal_code": "33602",
+                "name": "Amalie Arena",
+                "links": [],
+                "timezone": "America/New_York",
+                "url": "https://seatgeek.com/venues/amalie-arena/tickets",
+                "score": 0.61,
+                "location": {
+                    "lat": 27.9427,
+                    "lon": -82.4517
+                },
+                "address": "401 Channelside Dr",
+                "country": "US",
+                "has_upcoming_events": true,
+                "num_upcoming_events": 30,
+                "city": "Tampa",
+                "slug": "amalie-arena",
+                "extended_address": "Tampa, FL 33602",
+                "id": 182,
+                "popularity": 0,
+                "access_method": {
+                    "method": "QRCODE_TM",
+                    "created_at": "2015-10-29T16:55:53Z",
+                    "employee_only": false
+                },
+                "metro_code": 539,
+                "capacity": 21500,
+                "display_location": "Tampa, FL"
+            },
+            "datetime_tbd": false,
+            "performers": [
+                {
+                    "type": "nhl",
+                    "name": "Tampa Bay Lightning",
+                    "image": "https://seatgeek.com/images/performers-landscape/tampa-bay-lightning-c9f5c0/2131/huge.jpg",
+                    "id": 2131,
+                    "images": {
+                        "huge": "https://seatgeek.com/images/performers-landscape/tampa-bay-lightning-c9f5c0/2131/huge.jpg"
+                    },
+                    "divisions": [
+                        {
+                            "taxonomy_id": 1040100,
+                            "short_name": null,
+                            "display_name": "Eastern Conference",
+                            "display_type": "Conference",
+                            "division_level": 1,
+                            "slug": null
+                        },
+                        {
+                            "taxonomy_id": 1040100,
+                            "short_name": "Atlantic",
+                            "display_name": "Eastern - Atlantic",
+                            "display_type": "Division",
+                            "division_level": 2,
+                            "slug": "eastern-atlantic"
+                        }
+                    ],
+                    "has_upcoming_events": true,
+                    "primary": true,
+                    "stats": {
+                        "event_count": 4
+                    },
+                    "taxonomies": [
+                        {
+                            "id": 1000000,
+                            "name": "sports",
+                            "parent_id": null,
+                            "document_source": {
+                                "source_type": "ELASTIC",
+                                "generation_type": "FULL"
+                            },
+                            "rank": 0
+                        },
+                        {
+                            "id": 1040000,
+                            "name": "hockey",
+                            "parent_id": 1000000,
+                            "document_source": {
+                                "source_type": "ELASTIC",
+                                "generation_type": "FULL"
+                            },
+                            "rank": 0
+                        },
+                        {
+                            "id": 1040100,
+                            "name": "nhl",
+                            "parent_id": 1040000,
+                            "document_source": {
+                                "source_type": "ELASTIC",
+                                "generation_type": "FULL"
+                            },
+                            "rank": 4
+                        }
+                    ],
+                    "image_attribution": "sg",
+                    "url": "https://seatgeek.com/tampa-bay-lightning-tickets",
+                    "score": 0.45,
+                    "slug": "tampa-bay-lightning",
+                    "home_venue_id": 182,
+                    "short_name": "Lightning",
+                    "num_upcoming_events": 4,
+                    "colors": {
+                        "all": [
+                            "#002868",
+                            "#002868",
+                            "#002868"
+                        ],
+                        "iconic": "#002868",
+                        "primary": [
+                            "#002868",
+                            "#002868"
+                        ]
+                    },
+                    "image_license": "sg",
+                    "popularity": 0,
+                    "home_team": true,
+                    "location": {
+                        "lat": 27.9427,
+                        "lon": -82.4517
+                    },
+                    "image_rights_message": ""
+                },
+                {
+                    "type": "nhl",
+                    "name": "Colorado Avalanche",
+                    "image": "https://seatgeek.com/images/performers-landscape/colorado-avalanche-7ca107/2139/huge.jpg",
+                    "id": 2139,
+                    "images": {
+                        "huge": "https://seatgeek.com/images/performers-landscape/colorado-avalanche-7ca107/2139/huge.jpg"
+                    },
+                    "divisions": [
+                        {
+                            "taxonomy_id": 1040100,
+                            "short_name": null,
+                            "display_name": "Western Conference",
+                            "display_type": "Conference",
+                            "division_level": 1,
+                            "slug": null
+                        },
+                        {
+                            "taxonomy_id": 1040100,
+                            "short_name": "Central",
+                            "display_name": "Western - Central",
+                            "display_type": "Division",
+                            "division_level": 2,
+                            "slug": "western-central"
+                        }
+                    ],
+                    "has_upcoming_events": true,
+                    "stats": {
+                        "event_count": 4
+                    },
+                    "taxonomies": [
+                        {
+                            "id": 1000000,
+                            "name": "sports",
+                            "parent_id": null,
+                            "document_source": {
+                                "source_type": "ELASTIC",
+                                "generation_type": "FULL"
+                            },
+                            "rank": 0
+                        },
+                        {
+                            "id": 1040000,
+                            "name": "hockey",
+                            "parent_id": 1000000,
+                            "document_source": {
+                                "source_type": "ELASTIC",
+                                "generation_type": "FULL"
+                            },
+                            "rank": 0
+                        },
+                        {
+                            "id": 1040100,
+                            "name": "nhl",
+                            "parent_id": 1040000,
+                            "document_source": {
+                                "source_type": "ELASTIC",
+                                "generation_type": "FULL"
+                            },
+                            "rank": 4
+                        }
+                    ],
+                    "image_attribution": "https://www.flickr.com/photos/98147195@N00",
+                    "url": "https://seatgeek.com/colorado-avalanche-tickets",
+                    "score": 0.43,
+                    "slug": "colorado-avalanche",
+                    "home_venue_id": 187,
+                    "short_name": "Avalanche",
+                    "num_upcoming_events": 4,
+                    "colors": {
+                        "all": [
+                            "#6F263D",
+                            "#236192",
+                            "#6F263D"
+                        ],
+                        "iconic": "#6F263D",
+                        "primary": [
+                            "#6F263D",
+                            "#236192"
+                        ]
+                    },
+                    "image_license": "https://creativecommons.org/licenses/by/2.0/?ref=openverse",
+                    "popularity": 0,
+                    "location": {
+                        "lat": 39.7487,
+                        "lon": -105.008
+                    },
+                    "image_rights_message": "[This image](https://www.flickr.com/photos/98147195@N00) is available through [Creative Commons](https://creativecommons.org/licenses/by/2.0/?ref=openverse) on Flickr and has been modified from the original. Email [images@seatgeek.com](mailto:images@seatgeek.com) with any questions."
+                },
+                {
+                    "type": "nhl",
+                    "name": "NHL Stanley Cup Finals",
+                    "image": "https://seatgeek.com/images/performers-landscape/nhl-stanley-cup-finals-8471dd/14344/huge.jpg",
+                    "id": 14344,
+                    "images": {
+                        "huge": "https://seatgeek.com/images/performers-landscape/nhl-stanley-cup-finals-8471dd/14344/huge.jpg"
+                    },
+                    "divisions": null,
+                    "has_upcoming_events": true,
+                    "stats": {
+                        "event_count": 4
+                    },
+                    "taxonomies": [
+                        {
+                            "id": 1000000,
+                            "name": "sports",
+                            "parent_id": null,
+                            "document_source": {
+                                "source_type": "ELASTIC",
+                                "generation_type": "FULL"
+                            },
+                            "rank": 0
+                        },
+                        {
+                            "id": 1040000,
+                            "name": "hockey",
+                            "parent_id": 1000000,
+                            "document_source": {
+                                "source_type": "ELASTIC",
+                                "generation_type": "FULL"
+                            },
+                            "rank": 0
+                        },
+                        {
+                            "id": 1040100,
+                            "name": "nhl",
+                            "parent_id": 1040000,
+                            "document_source": {
+                                "source_type": "ELASTIC",
+                                "generation_type": "FULL"
+                            },
+                            "rank": 4
+                        }
+                    ],
+                    "image_attribution": "SeatGeek - 2022 (1600 X 1200)",
+                    "url": "https://seatgeek.com/nhl-stanley-cup-finals-tickets",
+                    "score": 0.42,
+                    "slug": "nhl-stanley-cup-finals",
+                    "home_venue_id": null,
+                    "short_name": "NHL Stanley Cup Finals",
+                    "num_upcoming_events": 4,
+                    "colors": null,
+                    "image_license": "SeatGeek - 2022 (1600 X 1200)",
+                    "popularity": 0,
+                    "away_team": true,
+                    "location": null,
+                    "image_rights_message": ""
+                },
+                {
+                    "type": "nhl",
+                    "name": "NHL Playoffs",
+                    "image": "https://seatgeek.com/images/performers-landscape/nhl-playoffs-57ad7d/792982/huge.jpg",
+                    "id": 792982,
+                    "images": {
+                        "huge": "https://seatgeek.com/images/performers-landscape/nhl-playoffs-57ad7d/792982/huge.jpg"
+                    },
+                    "divisions": null,
+                    "has_upcoming_events": true,
+                    "stats": {
+                        "event_count": 4
+                    },
+                    "taxonomies": [
+                        {
+                            "id": 1000000,
+                            "name": "sports",
+                            "parent_id": null,
+                            "document_source": {
+                                "source_type": "ELASTIC",
+                                "generation_type": "FULL"
+                            },
+                            "rank": 0
+                        },
+                        {
+                            "id": 1040000,
+                            "name": "hockey",
+                            "parent_id": 1000000,
+                            "document_source": {
+                                "source_type": "ELASTIC",
+                                "generation_type": "FULL"
+                            },
+                            "rank": 0
+                        },
+                        {
+                            "id": 1040100,
+                            "name": "nhl",
+                            "parent_id": 1040000,
+                            "document_source": {
+                                "source_type": "ELASTIC",
+                                "generation_type": "FULL"
+                            },
+                            "rank": 4
+                        }
+                    ],
+                    "image_attribution": "SeatGeek - 2022",
+                    "url": "https://seatgeek.com/nhl-playoffs-tickets",
+                    "score": 0.45,
+                    "slug": "nhl-playoffs",
+                    "home_venue_id": null,
+                    "short_name": "NHL Playoffs",
+                    "num_upcoming_events": 4,
+                    "colors": null,
+                    "image_license": "SeatGeek - 2022",
+                    "popularity": 0,
+                    "location": null,
+                    "image_rights_message": ""
+                }
+            ],
+            "is_open": false,
+            "links": [],
+            "datetime_local": "2022-06-26T20:00:00",
+            "time_tbd": false,
+            "short_title": "Avalanche at Lightning: Stanley Cup Finals - Gm 6",
+            "visible_until_utc": "2022-06-27T04:00:00",
+            "stats": {
+                "listing_count": 1075,
+                "average_price": 1989,
+                "lowest_price_good_deals": 513,
+                "lowest_price": 513,
+                "highest_price": 14140,
+                "visible_listing_count": 965,
+                "dq_bucket_counts": [
+                    31,
+                    518,
+                    165,
+                    77,
+                    68,
+                    69,
+                    145,
+                    0
+                ],
+                "median_price": 1524,
+                "lowest_sg_base_price": 393,
+                "lowest_sg_base_price_good_deals": 393
+            },
+            "taxonomies": [
+                {
+                    "id": 1000000,
+                    "name": "sports",
+                    "parent_id": null,
+                    "rank": 0
+                },
+                {
+                    "id": 1040000,
+                    "name": "hockey",
+                    "parent_id": 1000000,
+                    "rank": 0
+                },
+                {
+                    "id": 1040100,
+                    "name": "nhl",
+                    "parent_id": 1040000,
+                    "rank": 4
+                }
+            ],
+            "url": "https://seatgeek.com/colorado-avalanche-at-tampa-bay-lightning-stanley-cup-finals-game-6-tickets/6-26-2022-tampa-florida-amalie-arena/nhl/5653483",
+            "score": 0.622,
+            "announce_date": "2022-02-23T00:00:00",
+            "created_at": "2022-02-23T16:00:54",
+            "date_tbd": false,
+            "title": "Colorado Avalanche at Tampa Bay Lightning: Stanley Cup Finals - Game 6",
+            "popularity": 0.892,
+            "description": "",
+            "status": "normal",
+            "access_method": {
+                "method": "QRCODE_TM",
+                "created_at": "2015-10-29T16:55:53Z",
+                "employee_only": false
+            },
+            "event_promotion": null,
+            "announcements": {},
+            "conditional": false,
+            "enddatetime_utc": null,
+            "themes": [],
+            "domain_information": []
+        },
+        {
+            "type": "nhl",
+            "id": 5653681,
+            "datetime_utc": "2022-06-29T00:00:00",
+            "venue": {
+                "state": "CO",
+                "name_v2": "Ball Arena",
+                "postal_code": "80204",
+                "name": "Ball Arena",
+                "links": [],
+                "timezone": "America/Denver",
+                "url": "https://seatgeek.com/venues/ball-arena/tickets",
+                "score": 0.61,
+                "location": {
+                    "lat": 39.7487,
+                    "lon": -105.008
+                },
+                "address": "1000 Chopper Circle",
+                "country": "US",
+                "has_upcoming_events": true,
+                "num_upcoming_events": 47,
+                "city": "Denver",
+                "slug": "ball-arena",
+                "extended_address": "Denver, CO 80204",
+                "id": 187,
+                "popularity": 0,
+                "access_method": {
+                    "method": "NONE",
+                    "created_at": "2015-11-04T17:30:28Z",
+                    "employee_only": false
+                },
+                "metro_code": 751,
+                "capacity": 21000,
+                "display_location": "Denver, CO"
+            },
+            "datetime_tbd": false,
+            "performers": [
+                {
+                    "type": "nhl",
+                    "name": "Colorado Avalanche",
+                    "image": "https://seatgeek.com/images/performers-landscape/colorado-avalanche-8df321/2139/9189/huge.jpg",
+                    "id": 2139,
+                    "images": {
+                        "huge": "https://seatgeek.com/images/performers-landscape/colorado-avalanche-8df321/2139/9189/huge.jpg"
+                    },
+                    "divisions": [
+                        {
+                            "taxonomy_id": 1040100,
+                            "short_name": null,
+                            "display_name": "Western Conference",
+                            "display_type": "Conference",
+                            "division_level": 1,
+                            "slug": null
+                        },
+                        {
+                            "taxonomy_id": 1040100,
+                            "short_name": "Central",
+                            "display_name": "Western - Central",
+                            "display_type": "Division",
+                            "division_level": 2,
+                            "slug": "western-central"
+                        }
+                    ],
+                    "has_upcoming_events": true,
+                    "primary": true,
+                    "stats": {
+                        "event_count": 4
+                    },
+                    "taxonomies": [
+                        {
+                            "id": 1000000,
+                            "name": "sports",
+                            "parent_id": null,
+                            "document_source": {
+                                "source_type": "ELASTIC",
+                                "generation_type": "FULL"
+                            },
+                            "rank": 0
+                        },
+                        {
+                            "id": 1040000,
+                            "name": "hockey",
+                            "parent_id": 1000000,
+                            "document_source": {
+                                "source_type": "ELASTIC",
+                                "generation_type": "FULL"
+                            },
+                            "rank": 0
+                        },
+                        {
+                            "id": 1040100,
+                            "name": "nhl",
+                            "parent_id": 1040000,
+                            "document_source": {
+                                "source_type": "ELASTIC",
+                                "generation_type": "FULL"
+                            },
+                            "rank": 4
+                        }
+                    ],
+                    "image_attribution": "https://www.flickr.com/photos/rtadlock/5589496052/in/photolist-9vVCrA-rPpPBN-hK6wxR-6Eaavn-dngh6P-btP6DQ-btP2NY-bGHTnP-p8JDDr-p8JTfA-bGHSa2-bGHRvM-bGHSEK-bGHQX2-btP3Wm-bGHRQc-btP36U-9vSbfF-5SwG68-ppXzJx-p8KTwT-p8KsXU-p8JUb3-p8JUBy-6SV4Gy-ppXxZv-pqeLR4-pqe",
+                    "url": "https://seatgeek.com/colorado-avalanche-tickets",
+                    "score": 0.43,
+                    "slug": "colorado-avalanche",
+                    "home_venue_id": 187,
+                    "short_name": "Avalanche",
+                    "num_upcoming_events": 4,
+                    "colors": {
+                        "all": [
+                            "#6F263D",
+                            "#236192",
+                            "#6F263D"
+                        ],
+                        "iconic": "#6F263D",
+                        "primary": [
+                            "#6F263D",
+                            "#236192"
+                        ]
+                    },
+                    "image_license": "https://creativecommons.org/licenses/by/2.0/",
+                    "popularity": 0,
+                    "home_team": true,
+                    "location": {
+                        "lat": 39.7487,
+                        "lon": -105.008
+                    },
+                    "image_rights_message": "[This image](https://www.flickr.com/photos/rtadlock/5589496052/in/photolist-9vVCrA-rPpPBN-hK6wxR-6Eaavn-dngh6P-btP6DQ-btP2NY-bGHTnP-p8JDDr-p8JTfA-bGHSa2-bGHRvM-bGHSEK-bGHQX2-btP3Wm-bGHRQc-btP36U-9vSbfF-5SwG68-ppXzJx-p8KTwT-p8KsXU-p8JUb3-p8JUBy-6SV4Gy-ppXxZv-pqeLR4-pqe) is available through [Creative Commons](https://creativecommons.org/licenses/by/2.0/) (@rtadlock - Flickr) and has been modified from the original. Email [images@seatgeek.com](mailto:images@seatgeek.com) with any questions."
+                },
+                {
+                    "type": "nhl",
+                    "name": "Tampa Bay Lightning",
+                    "image": "https://seatgeek.com/images/performers-landscape/tampa-bay-lightning-c9f5c0/2131/huge.jpg",
+                    "id": 2131,
+                    "images": {
+                        "huge": "https://seatgeek.com/images/performers-landscape/tampa-bay-lightning-c9f5c0/2131/huge.jpg"
+                    },
+                    "divisions": [
+                        {
+                            "taxonomy_id": 1040100,
+                            "short_name": null,
+                            "display_name": "Eastern Conference",
+                            "display_type": "Conference",
+                            "division_level": 1,
+                            "slug": null
+                        },
+                        {
+                            "taxonomy_id": 1040100,
+                            "short_name": "Atlantic",
+                            "display_name": "Eastern - Atlantic",
+                            "display_type": "Division",
+                            "division_level": 2,
+                            "slug": "eastern-atlantic"
+                        }
+                    ],
+                    "has_upcoming_events": true,
+                    "stats": {
+                        "event_count": 4
+                    },
+                    "taxonomies": [
+                        {
+                            "id": 1000000,
+                            "name": "sports",
+                            "parent_id": null,
+                            "document_source": {
+                                "source_type": "ELASTIC",
+                                "generation_type": "FULL"
+                            },
+                            "rank": 0
+                        },
+                        {
+                            "id": 1040000,
+                            "name": "hockey",
+                            "parent_id": 1000000,
+                            "document_source": {
+                                "source_type": "ELASTIC",
+                                "generation_type": "FULL"
+                            },
+                            "rank": 0
+                        },
+                        {
+                            "id": 1040100,
+                            "name": "nhl",
+                            "parent_id": 1040000,
+                            "document_source": {
+                                "source_type": "ELASTIC",
+                                "generation_type": "FULL"
+                            },
+                            "rank": 4
+                        }
+                    ],
+                    "image_attribution": "sg",
+                    "url": "https://seatgeek.com/tampa-bay-lightning-tickets",
+                    "score": 0.45,
+                    "slug": "tampa-bay-lightning",
+                    "home_venue_id": 182,
+                    "short_name": "Lightning",
+                    "num_upcoming_events": 4,
+                    "colors": {
+                        "all": [
+                            "#002868",
+                            "#002868",
+                            "#002868"
+                        ],
+                        "iconic": "#002868",
+                        "primary": [
+                            "#002868",
+                            "#002868"
+                        ]
+                    },
+                    "image_license": "sg",
+                    "popularity": 0,
+                    "location": {
+                        "lat": 27.9427,
+                        "lon": -82.4517
+                    },
+                    "image_rights_message": ""
+                },
+                {
+                    "type": "nhl",
+                    "name": "NHL Stanley Cup Finals",
+                    "image": "https://seatgeek.com/images/performers-landscape/nhl-stanley-cup-finals-8471dd/14344/huge.jpg",
+                    "id": 14344,
+                    "images": {
+                        "huge": "https://seatgeek.com/images/performers-landscape/nhl-stanley-cup-finals-8471dd/14344/huge.jpg"
+                    },
+                    "divisions": null,
+                    "has_upcoming_events": true,
+                    "stats": {
+                        "event_count": 4
+                    },
+                    "taxonomies": [
+                        {
+                            "id": 1000000,
+                            "name": "sports",
+                            "parent_id": null,
+                            "document_source": {
+                                "source_type": "ELASTIC",
+                                "generation_type": "FULL"
+                            },
+                            "rank": 0
+                        },
+                        {
+                            "id": 1040000,
+                            "name": "hockey",
+                            "parent_id": 1000000,
+                            "document_source": {
+                                "source_type": "ELASTIC",
+                                "generation_type": "FULL"
+                            },
+                            "rank": 0
+                        },
+                        {
+                            "id": 1040100,
+                            "name": "nhl",
+                            "parent_id": 1040000,
+                            "document_source": {
+                                "source_type": "ELASTIC",
+                                "generation_type": "FULL"
+                            },
+                            "rank": 4
+                        }
+                    ],
+                    "image_attribution": "SeatGeek - 2022 (1600 X 1200)",
+                    "url": "https://seatgeek.com/nhl-stanley-cup-finals-tickets",
+                    "score": 0.42,
+                    "slug": "nhl-stanley-cup-finals",
+                    "home_venue_id": null,
+                    "short_name": "NHL Stanley Cup Finals",
+                    "num_upcoming_events": 4,
+                    "colors": null,
+                    "image_license": "SeatGeek - 2022 (1600 X 1200)",
+                    "popularity": 0,
+                    "away_team": true,
+                    "location": null,
+                    "image_rights_message": ""
+                },
+                {
+                    "type": "nhl",
+                    "name": "NHL Playoffs",
+                    "image": "https://seatgeek.com/images/performers-landscape/nhl-playoffs-57ad7d/792982/huge.jpg",
+                    "id": 792982,
+                    "images": {
+                        "huge": "https://seatgeek.com/images/performers-landscape/nhl-playoffs-57ad7d/792982/huge.jpg"
+                    },
+                    "divisions": null,
+                    "has_upcoming_events": true,
+                    "stats": {
+                        "event_count": 4
+                    },
+                    "taxonomies": [
+                        {
+                            "id": 1000000,
+                            "name": "sports",
+                            "parent_id": null,
+                            "document_source": {
+                                "source_type": "ELASTIC",
+                                "generation_type": "FULL"
+                            },
+                            "rank": 0
+                        },
+                        {
+                            "id": 1040000,
+                            "name": "hockey",
+                            "parent_id": 1000000,
+                            "document_source": {
+                                "source_type": "ELASTIC",
+                                "generation_type": "FULL"
+                            },
+                            "rank": 0
+                        },
+                        {
+                            "id": 1040100,
+                            "name": "nhl",
+                            "parent_id": 1040000,
+                            "document_source": {
+                                "source_type": "ELASTIC",
+                                "generation_type": "FULL"
+                            },
+                            "rank": 4
+                        }
+                    ],
+                    "image_attribution": "SeatGeek - 2022",
+                    "url": "https://seatgeek.com/nhl-playoffs-tickets",
+                    "score": 0.45,
+                    "slug": "nhl-playoffs",
+                    "home_venue_id": null,
+                    "short_name": "NHL Playoffs",
+                    "num_upcoming_events": 4,
+                    "colors": null,
+                    "image_license": "SeatGeek - 2022",
+                    "popularity": 0,
+                    "location": null,
+                    "image_rights_message": ""
+                }
+            ],
+            "is_open": false,
+            "links": [],
+            "datetime_local": "2022-06-28T18:00:00",
+            "time_tbd": false,
+            "short_title": "Lightning at Avalanche: Stanley Cup Finals - Gm 7",
+            "visible_until_utc": "2022-06-29T04:00:00",
+            "stats": {
+                "listing_count": 680,
+                "average_price": 4311,
+                "lowest_price_good_deals": 1125,
+                "lowest_price": 1125,
+                "highest_price": 84755,
+                "visible_listing_count": 620,
+                "dq_bucket_counts": [
+                    65,
+                    249,
+                    116,
+                    42,
+                    37,
+                    81,
+                    84,
+                    0
+                ],
+                "median_price": 2677,
+                "lowest_sg_base_price": 869,
+                "lowest_sg_base_price_good_deals": 869
+            },
+            "taxonomies": [
+                {
+                    "id": 1000000,
+                    "name": "sports",
+                    "parent_id": null,
+                    "rank": 0
+                },
+                {
+                    "id": 1040000,
+                    "name": "hockey",
+                    "parent_id": 1000000,
+                    "rank": 0
+                },
+                {
+                    "id": 1040100,
+                    "name": "nhl",
+                    "parent_id": 1040000,
+                    "rank": 4
+                }
+            ],
+            "url": "https://seatgeek.com/tampa-bay-lightning-at-colorado-avalanche-stanley-cup-finals-game-7-tickets/6-28-2022-denver-colorado-ball-arena/nhl/5653681",
+            "score": 0.609,
+            "announce_date": "2022-02-23T00:00:00",
+            "created_at": "2022-02-23T16:00:59",
+            "date_tbd": false,
+            "title": "Tampa Bay Lightning at Colorado Avalanche: Stanley Cup Finals - Game 7",
+            "popularity": 0.874,
+            "description": "",
+            "status": "normal",
+            "access_method": {
+                "method": "NONE",
+                "created_at": "2015-11-04T17:30:28Z",
+                "employee_only": false
+            },
+            "event_promotion": null,
+            "announcements": {},
+            "conditional": false,
+            "enddatetime_utc": null,
+            "themes": [],
+            "domain_information": []
+        }
+    ],
+    "meta": {
+        "total": 5,
+        "took": 5,
+        "page": 1,
+        "per_page": 10,
+        "geolocation": null
+    }
+}
