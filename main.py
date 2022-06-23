@@ -1,10 +1,11 @@
 
 
 """ 
-Date: June 20, 2022
-Author: Matt Popovich
-About: TODO
-TODO: Everything 
+Date:   June 20, 2022
+Author: Matt Popovich (popovich.matt@gmail.com)
+About:  Will grab data of every Colorado Avalanche game from SeatGeek and log 
+        ticket price information
+TODO:   See the various TODO's spread throughout the code 
 """ 
 
 ### Imports
@@ -12,8 +13,7 @@ import urllib
 import configparser
 import json
 import requests
-import time         # time.time(): float
-import datetime     # datetime.datetime.fromtimestamp(): datetime.datetime
+import datetime     # datetime.datetime.utcnow(): datetime.datetime
 import sys          # sys.exit()
 
 
@@ -22,10 +22,10 @@ import sys          # sys.exit()
 # Records a single event's information for a certain slice/period in time
 class EventSlice:
 
-    def __init__(self, full_event: dict, time_retrieved: float):
+    def __init__(self, full_event: dict, time_retrieved_utc: datetime.datetime):
         self.full_event = full_event
         self.parse_event(full_event)
-        self.time_retrieved = time_retrieved
+        self.time_retrieved_utc: datetime.datetime = time_retrieved_utc
 
     def parse_event(self, full_event: dict):
         self.type: str = full_event['type']                                                 # "nhl"
@@ -45,8 +45,9 @@ class EventSlice:
         self.performer1name: str = full_event['performers'][1]['name']                      # "Colorado Avalanche"
 
     def to_string(self) -> str:
+        # TODO: There's a better way to do this 
         c = ", "
-        ret = str(datetime.datetime.fromtimestamp(self.time_retrieved)) + c
+        ret = str(self.time_retrieved_utc) + c
         ret += self.type + c + str(self.event_id) + c + self.datetime_utc + c
         ret += str(self.listing_count) + c + str(self.lowest_price_good_deals) + c 
         ret += str(self.lowest_price) + c + str(self.highest_price) + c 
@@ -74,7 +75,7 @@ print(query)
 
 # Getting data
 # TODO: Get this data every 15 mins
-time_retrieved: float = time.time()
+time_retrieved_utc: datetime.datetime = datetime.datetime.utcnow()
 # TODO: Check if this simpler way works
 # r = requests.get(query)
 # json_data = r.json()
@@ -86,11 +87,11 @@ json_data = json.load(urllib.request.urlopen(req))
 
 # Dump our request to a file for full analysis if necessary
 with open('request.txt', 'a') as f:
-    f.write(f"{str(datetime.datetime.fromtimestamp(time_retrieved))} ;;;; \n {json.dumps(json_data, indent=4)}")
+    f.write(f"{str(time_retrieved_utc)} ;;;; \n {json.dumps(json_data, indent=4)} \n")
 
 
 for e in json_data['events']:
-    es = EventSlice(e, time.time())
+    es = EventSlice(e, time_retrieved_utc)
     with open(DATA_FILENAME, 'a') as f:
         # TODO: If the file doesn't exist, write a header with the first line
         f.write(es.to_string() + '\n')
