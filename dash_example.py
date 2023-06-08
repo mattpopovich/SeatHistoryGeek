@@ -90,13 +90,15 @@ def update_output(value):
 )
 def update_graph(event_id: List[int]):
     print(f"running update_graph with event_id: {event_id}")
+    if event_id is None or len(event_id) == 0:
+        return {}
+    
     df = read_dataframe()
-    print(f"read df: {df}")
-    df_2 = df[df['id'] == event_id[0]]
-    print(f"df 2 : {df_2}")
+    df_2 = df[df['id'].isin(event_id)]
     import plotly.express as px
     fig = px.line(data_frame=df_2.reset_index(),
                     x='date retrieved',
+                    # TOOD: Get these y values from a check box
                     y=['num listings', 'lowest price', 'median price'],
                     title=df_2.iloc[0].title)
     return fig
@@ -105,7 +107,7 @@ def update_graph(event_id: List[int]):
 
 
 if __name__ == '__main__':
-    app.run_server(debug=True)
+    app.run_server(host='0.0.0.0', port=8050, debug=True)
 
 
 # Self hosting: 
