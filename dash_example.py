@@ -2,29 +2,32 @@
 from dash import Dash, dcc, html, Input, Output
 
 ################
-from typing import Final
+from typing import Final, List
 
 import pandas as pd
 import plotly.io as pio
 # pio.renderers.default = 'iframe'
 
-DATAFILE: Final[str] = "seatgeek_data.txt"
 
-# Read the csv file 
-df = pd.read_csv(DATAFILE)
-df.columns = df.columns.str.strip()   # Remove leading and trailing spaces from columns
-# df[df['id'] == 5958769][['date retrieved', 'num listings', 'lowest price']]
 
-# Convert string to datetime object
-df['date retrieved'] = pd.to_datetime(df['date retrieved'])
+def read_dataframe():
+    """
+    TODO: Save this df in RAM somewhere so we don't re-read it every time??
+    """
+    DATAFILE: Final[str] = "seatgeek_data.txt"
 
-df.set_index('date retrieved', inplace=True)
-df_2 = df[df['id'] == 5958641]
-import plotly.express as px
-fig = px.line(data_frame=df_2.reset_index(),
-                 x='date retrieved',
-                 y=['num listings', 'lowest price', 'median price'],
-                 title=df_2.iloc[0].title)
+    # Read the csv file 
+    df = pd.read_csv(DATAFILE)
+    df.columns = df.columns.str.strip()   # Remove leading and trailing spaces from columns
+    # df[df['id'] == 5958769][['date retrieved', 'num listings', 'lowest price']]
+
+    # Convert string to datetime object
+    df['date retrieved'] = pd.to_datetime(df['date retrieved'])
+
+    df.set_index('date retrieved', inplace=True)
+    return df
+
+
 # fig.show()
 
 # import plotly 
@@ -33,9 +36,10 @@ fig = px.line(data_frame=df_2.reset_index(),
 # plotly.offline.plot({'data': px.scatter(df_2.reset_index(), x='date retrieved', y='num listings')}, include_plotlyjs=False, output_type='div')
 ###################
 
+df = read_dataframe()
 options = []
-for id in df.id.unique():
-    row = df[df.id == id].iloc[0]
+for id_num in df.id.unique():
+    row = df[df.id == id_num].iloc[0]
     label = row.title
     value = row.id
     search_str = row.type + '; '
@@ -43,7 +47,7 @@ for id in df.id.unique():
     search_str += row.title + '; '
     search_str += row['performer names']
     options.append({'label': label, 'value': value, 'search': search_str})
-print(f"Options:\n{options}")
+print(f"Example option:\n{options[0]}")
 
 app = Dash(__name__)
 app.layout = html.Div([
@@ -68,7 +72,7 @@ app.layout = html.Div([
         placeholder="Select an event"
     ),
     html.Div(id='dd-output-container'),
-    dcc.Graph(figure=fig)
+    dcc.Graph(id='ticket-price-graph')
 ])
 
 
@@ -78,6 +82,26 @@ app.layout = html.Div([
 )
 def update_output(value):
     return f'You have selected {value}'
+
+
+@app.callback(
+    Output('ticket-price-graph', 'figure'),
+    Input('demo-dropdown', 'value'),
+)
+def update_graph(event_id: List[int]):
+    print(f"running update_graph with event_id: {event_id}")
+    df = read_dataframe()
+    print(f"read df: {df}")
+    df_2 = df[df['id'] == event_id[0]]
+    print(f"df 2 : {df_2}")
+    import plotly.express as px
+    fig = px.line(data_frame=df_2.reset_index(),
+                    x='date retrieved',
+                    y=['num listings', 'lowest price', 'median price'],
+                    title=df_2.iloc[0].title)
+    return fig
+
+
 
 
 if __name__ == '__main__':
