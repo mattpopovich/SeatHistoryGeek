@@ -53,7 +53,8 @@ class EventSlice:
         ret += str(self.lowest_price) + c + str(self.highest_price) + c 
         ret += str(self.visible_listing_count) + c + str(self.median_price) + c 
         ret += self.url + c + str(self.venue_id) + c + str(self.score) + c 
-        ret += self.title + c + ", ".join(self.performer_names)
+        # Delimit performer names with a semicolon
+        ret += self.title + c + "; ".join(self.performer_names)
         return ret
 
 
