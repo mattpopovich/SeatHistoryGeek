@@ -22,9 +22,10 @@ def read_dataframe():
     # df[df['id'] == 5958769][['date retrieved', 'num listings', 'lowest price']]
 
     # Convert string to datetime object
-    df['date retrieved'] = pd.to_datetime(df['date retrieved'])
+    # TODO: Keep this in UTC and display it in the user's local timezone
+    df['date retrieved MT'] = pd.to_datetime(df['date retrieved'], utc=True).dt.tz_convert('America/Denver')
 
-    df.set_index('date retrieved', inplace=True)
+    df.set_index('date retrieved MT', inplace=True)
     return df
 
 
@@ -97,7 +98,7 @@ def update_graph(event_id: List[int]):
     df_2 = df[df['id'].isin(event_id)]
     import plotly.express as px
     fig = px.line(data_frame=df_2.reset_index(),
-                    x='date retrieved',
+                    x='date retrieved MT',
                     # TOOD: Get these y values from a check box
                     y=['num listings', 'lowest price', 'median price'],
                     title=df_2.iloc[0].title)

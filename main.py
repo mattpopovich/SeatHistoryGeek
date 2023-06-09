@@ -88,7 +88,7 @@ query = url + events_csv + '&client_id=' + CLIENT_ID + '&client_secret=' + SECRE
 
 # Getting data
 # TODO: Get this data every 15 mins
-time_retrieved_utc: datetime.datetime = datetime.datetime.utcnow()
+time_retrieved_utc: datetime.datetime = datetime.datetime.utcnow().astimezone() # '2023-06-09 02:08:02.442320+00:00'
 # TODO: Check if this simpler way works
 # r = requests.get(query)
 # json_data = r.json()
