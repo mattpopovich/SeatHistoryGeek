@@ -4,7 +4,14 @@
 ARG VARIANT="3.10-bullseye"
 FROM mcr.microsoft.com/vscode/devcontainers/python:0-${VARIANT}
 
-RUN pip install requests
+# Make HTTP requests for API information
+RUN pip install --upgrade requests
+
+# Plot.ly interactive web app
+RUN pip install --upgrade dash
+
+# Python "database" library
+RUN pip install --upgrade pandas
 
 # [Choice] Node.js version: none, lts/*, 16, 14, 12, 10
 # ARG NODE_VERSION="none"
