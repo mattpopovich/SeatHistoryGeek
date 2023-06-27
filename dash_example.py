@@ -17,9 +17,19 @@ def read_dataframe():
     DATAFILE: Final[str] = "seatgeek_data.txt"
 
     # Read the csv file 
-    df = pd.read_csv(DATAFILE)
+    df = pd.read_csv(DATAFILE, delimiter="|")
     df.columns = df.columns.str.strip()   # Remove leading and trailing spaces from columns
     # df[df['id'] == 5958769][['date retrieved', 'num listings', 'lowest price']]
+
+    # Remove trailing and leading spaces from all strings in the dataframe
+    df = df.applymap(lambda x: x.strip() if isinstance(x, str) else x)
+
+    # Some entries have "None" returned from SeatGeek, replace them with -1
+    df.replace("None", "-1", inplace=True)
+
+    # Convert some columns from object (string) to float
+    for col in ['num listings', 'lowest price', 'median price']:
+        df[col] = pd.to_numeric(df[col])
 
     # Convert string to datetime object
     # TODO: Keep this in UTC and display it in the user's local timezone

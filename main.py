@@ -46,15 +46,15 @@ class EventSlice:
 
     def to_string(self) -> str:
         # TODO: There's a better way to do this 
-        c = ", "
+        c = "|"
         ret = str(self.time_retrieved_utc) + c
         ret += self.type + c + str(self.event_id) + c + self.datetime_utc + c
         ret += str(self.listing_count) + c + str(self.lowest_price_good_deals) + c 
         ret += str(self.lowest_price) + c + str(self.highest_price) + c 
         ret += str(self.visible_listing_count) + c + str(self.median_price) + c 
         ret += self.url + c + str(self.venue_id) + c + str(self.score) + c 
-        # Delimit performer names with a semicolon
-        ret += self.title + c + "; ".join(self.performer_names)
+        # Delimit performer names with a comma
+        ret += self.title + c + ", ".join(self.performer_names)
         return ret
 
 
