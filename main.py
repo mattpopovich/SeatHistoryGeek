@@ -4,6 +4,7 @@ Author: Matt Popovich (popovich.matt@gmail.com)
 About:  Will grab data of every Colorado Avalanche game from SeatGeek and log 
         ticket price information
 TODO:   See the various TODO's spread throughout the code 
+        Make a dashboard to report which shows we're currently tracking
 
 Ex. while true; do python3 main.py; sleep 3210; done
 """ 

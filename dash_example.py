@@ -1,3 +1,7 @@
+
+# Web app
+# Run via: python dash_example.py
+
 # pip install dash
 from dash import Dash, dcc, html, Input, Output
 
