@@ -1,6 +1,6 @@
 """ 
 Date:   June 20, 2022
-Author: Matt Popovich (popovich.matt@gmail.com)
+Author: Matt Popovich (https://mattpopovich.com/)
 About:  Will grab data of every Colorado Avalanche game from SeatGeek and log 
         ticket price information
 TODO:   See the various TODO's spread throughout the code 
